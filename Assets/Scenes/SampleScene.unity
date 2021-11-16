@@ -298,6 +298,7 @@ GameObject:
   - component: {fileID: 40157510}
   - component: {fileID: 40157511}
   - component: {fileID: 40157512}
+  - component: {fileID: 40157513}
   m_Layer: 0
   m_Name: Tree 2 (7)
   m_TagString: Untagged
@@ -386,6 +387,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.0000038146973}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &40157513
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40157509}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &42879958
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,6 +501,7 @@ GameObject:
   - component: {fileID: 58372559}
   - component: {fileID: 58372560}
   - component: {fileID: 58372561}
+  - component: {fileID: 58372562}
   m_Layer: 0
   m_Name: Tree 1 (1)
   m_TagString: Untagged
@@ -567,6 +590,27 @@ CircleCollider2D:
   m_Offset: {x: -0.0000038146973, y: 0}
   serializedVersion: 2
   m_Radius: 2.3799999
+--- !u!50 &58372562
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58372558}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &85034808
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,6 +704,7 @@ GameObject:
   - component: {fileID: 88014406}
   - component: {fileID: 88014407}
   - component: {fileID: 88014408}
+  - component: {fileID: 88014409}
   m_Layer: 0
   m_Name: Tree 2 (15)
   m_TagString: Untagged
@@ -748,6 +793,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &88014409
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88014405}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &91004850
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +934,7 @@ GameObject:
   - component: {fileID: 183037699}
   - component: {fileID: 183037700}
   - component: {fileID: 183037701}
+  - component: {fileID: 183037702}
   m_Layer: 0
   m_Name: Tree 1 (5)
   m_TagString: Untagged
@@ -956,6 +1023,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.3799999
+--- !u!50 &183037702
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183037698}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &206994626
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +1055,7 @@ GameObject:
   - component: {fileID: 206994627}
   - component: {fileID: 206994628}
   - component: {fileID: 206994629}
+  - component: {fileID: 206994630}
   m_Layer: 0
   m_Name: Rocks 1 (9)
   m_TagString: Untagged
@@ -1055,6 +1144,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3.6
+--- !u!50 &206994630
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206994626}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &242032119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1175,6 +1285,7 @@ GameObject:
   - component: {fileID: 269782949}
   - component: {fileID: 269782950}
   - component: {fileID: 269782951}
+  - component: {fileID: 269782952}
   m_Layer: 0
   m_Name: Tree 2 (12)
   m_TagString: Untagged
@@ -1263,6 +1374,27 @@ CircleCollider2D:
   m_Offset: {x: 0.0000038146973, y: 0}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &269782952
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269782948}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &282141169
 GameObject:
   m_ObjectHideFlags: 0
@@ -1274,6 +1406,7 @@ GameObject:
   - component: {fileID: 282141170}
   - component: {fileID: 282141171}
   - component: {fileID: 282141172}
+  - component: {fileID: 282141173}
   m_Layer: 0
   m_Name: Rocks 1 (6)
   m_TagString: Untagged
@@ -1362,6 +1495,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3.6
+--- !u!50 &282141173
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282141169}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &290710308
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,6 +1609,7 @@ GameObject:
   - component: {fileID: 305490215}
   - component: {fileID: 305490216}
   - component: {fileID: 305490217}
+  - component: {fileID: 305490218}
   m_Layer: 0
   m_Name: Tree 2 (11)
   m_TagString: Untagged
@@ -1543,6 +1698,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &305490218
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305490214}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &308817691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1653,6 +1829,7 @@ GameObject:
   - component: {fileID: 309035078}
   - component: {fileID: 309035079}
   - component: {fileID: 309035080}
+  - component: {fileID: 309035081}
   m_Layer: 0
   m_Name: Tree 2 (8)
   m_TagString: Untagged
@@ -1741,6 +1918,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &309035081
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309035077}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &378161230
 GameObject:
   m_ObjectHideFlags: 0
@@ -2107,6 +2305,7 @@ GameObject:
   - component: {fileID: 515928236}
   - component: {fileID: 515928235}
   - component: {fileID: 515928237}
+  - component: {fileID: 515928238}
   m_Layer: 0
   m_Name: Rocks 1
   m_TagString: Untagged
@@ -2195,6 +2394,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3.6
+--- !u!50 &515928238
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515928234}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2206,6 +2426,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2221,6 +2442,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd67a0e3e9deed04c9bbc2db5c0f7fb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thingToFollow: {fileID: 519713652}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -2557,6 +2791,7 @@ GameObject:
   - component: {fileID: 589364431}
   - component: {fileID: 589364432}
   - component: {fileID: 589364433}
+  - component: {fileID: 589364434}
   m_Layer: 0
   m_Name: Tree 1 (3)
   m_TagString: Untagged
@@ -2645,6 +2880,27 @@ CircleCollider2D:
   m_Offset: {x: -0.00000023841858, y: 0}
   serializedVersion: 2
   m_Radius: 2.3799999
+--- !u!50 &589364434
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589364430}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &606063755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2738,6 +2994,7 @@ GameObject:
   - component: {fileID: 618673837}
   - component: {fileID: 618673838}
   - component: {fileID: 618673839}
+  - component: {fileID: 618673840}
   m_Layer: 0
   m_Name: Tree 2 (6)
   m_TagString: Untagged
@@ -2826,6 +3083,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &618673840
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618673836}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &626310343
 GameObject:
   m_ObjectHideFlags: 0
@@ -2919,6 +3197,7 @@ GameObject:
   - component: {fileID: 630234976}
   - component: {fileID: 630234977}
   - component: {fileID: 630234978}
+  - component: {fileID: 630234979}
   m_Layer: 0
   m_Name: Tree 1 (2)
   m_TagString: Untagged
@@ -3007,6 +3286,27 @@ CircleCollider2D:
   m_Offset: {x: -0.0000038146973, y: -0.000000044703484}
   serializedVersion: 2
   m_Radius: 2.3799999
+--- !u!50 &630234979
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630234975}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &693669359
 GameObject:
   m_ObjectHideFlags: 0
@@ -3018,6 +3318,7 @@ GameObject:
   - component: {fileID: 693669360}
   - component: {fileID: 693669361}
   - component: {fileID: 693669362}
+  - component: {fileID: 693669363}
   m_Layer: 0
   m_Name: Tree 2 (5)
   m_TagString: Untagged
@@ -3106,6 +3407,27 @@ CircleCollider2D:
   m_Offset: {x: 0.0000009536743, y: 0}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &693669363
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693669359}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &694173396
 GameObject:
   m_ObjectHideFlags: 0
@@ -3117,6 +3439,7 @@ GameObject:
   - component: {fileID: 694173397}
   - component: {fileID: 694173398}
   - component: {fileID: 694173399}
+  - component: {fileID: 694173400}
   m_Layer: 0
   m_Name: Tree 2 (3)
   m_TagString: Untagged
@@ -3205,6 +3528,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.00000047683716}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &694173400
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694173396}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &697177671
 GameObject:
   m_ObjectHideFlags: 0
@@ -3216,6 +3560,7 @@ GameObject:
   - component: {fileID: 697177672}
   - component: {fileID: 697177673}
   - component: {fileID: 697177674}
+  - component: {fileID: 697177675}
   m_Layer: 0
   m_Name: Rocks 1 (1)
   m_TagString: Untagged
@@ -3304,6 +3649,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3.6
+--- !u!50 &697177675
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697177671}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &711673507
 GameObject:
   m_ObjectHideFlags: 0
@@ -3506,6 +3872,7 @@ GameObject:
   - component: {fileID: 774271896}
   - component: {fileID: 774271897}
   - component: {fileID: 774271898}
+  - component: {fileID: 774271899}
   m_Layer: 0
   m_Name: Tree 2 (10)
   m_TagString: Untagged
@@ -3594,6 +3961,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &774271899
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774271895}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &782023008
 GameObject:
   m_ObjectHideFlags: 0
@@ -3605,6 +3993,7 @@ GameObject:
   - component: {fileID: 782023009}
   - component: {fileID: 782023010}
   - component: {fileID: 782023011}
+  - component: {fileID: 782023012}
   m_Layer: 0
   m_Name: Rocks 1 (4)
   m_TagString: Untagged
@@ -3693,6 +4082,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3.6
+--- !u!50 &782023012
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782023008}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &857682738
 GameObject:
   m_ObjectHideFlags: 0
@@ -3704,6 +4114,7 @@ GameObject:
   - component: {fileID: 857682739}
   - component: {fileID: 857682740}
   - component: {fileID: 857682741}
+  - component: {fileID: 857682742}
   m_Layer: 0
   m_Name: Tree 2 (16)
   m_TagString: Untagged
@@ -3792,6 +4203,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &857682742
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857682738}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &862520919
 GameObject:
   m_ObjectHideFlags: 0
@@ -3803,6 +4235,7 @@ GameObject:
   - component: {fileID: 862520920}
   - component: {fileID: 862520921}
   - component: {fileID: 862520922}
+  - component: {fileID: 862520923}
   m_Layer: 0
   m_Name: Tree 1 (8)
   m_TagString: Untagged
@@ -3891,6 +4324,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.00000047683716}
   serializedVersion: 2
   m_Radius: 2.3799999
+--- !u!50 &862520923
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862520919}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &909008194
 GameObject:
   m_ObjectHideFlags: 0
@@ -4229,6 +4683,7 @@ GameObject:
   - component: {fileID: 929284621}
   - component: {fileID: 929284622}
   - component: {fileID: 929284623}
+  - component: {fileID: 929284624}
   m_Layer: 0
   m_Name: Rocks 1 (8)
   m_TagString: Untagged
@@ -4317,6 +4772,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3.6
+--- !u!50 &929284624
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929284620}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &936356474
 GameObject:
   m_ObjectHideFlags: 0
@@ -4437,6 +4913,7 @@ GameObject:
   - component: {fileID: 996792272}
   - component: {fileID: 996792273}
   - component: {fileID: 996792274}
+  - component: {fileID: 996792275}
   m_Layer: 0
   m_Name: Tree 2 (13)
   m_TagString: Untagged
@@ -4525,6 +5002,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &996792275
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996792271}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1061519811
 GameObject:
   m_ObjectHideFlags: 0
@@ -4618,6 +5116,7 @@ GameObject:
   - component: {fileID: 1148895242}
   - component: {fileID: 1148895243}
   - component: {fileID: 1148895244}
+  - component: {fileID: 1148895245}
   m_Layer: 0
   m_Name: Tree 1 (7)
   m_TagString: Untagged
@@ -4706,6 +5205,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.3799999
+--- !u!50 &1148895245
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148895241}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1162134746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4800,8 +5320,8 @@ GameObject:
   - component: {fileID: 1164497989}
   - component: {fileID: 1164497991}
   m_Layer: 0
-  m_Name: Capu tau
-  m_TagString: Untagged
+  m_Name: Package
+  m_TagString: Package
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4865,8 +5385,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164497988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.44, y: -9.51, z: 0}
-  m_LocalScale: {x: 2.2799048, y: 0.57, z: 1}
+  m_LocalPosition: {x: -8.63, y: -7.83, z: 0}
+  m_LocalScale: {x: 0.8596495, y: 0.9210915, z: 1.4364}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -4908,6 +5428,7 @@ GameObject:
   - component: {fileID: 1214963584}
   - component: {fileID: 1214963585}
   - component: {fileID: 1214963586}
+  - component: {fileID: 1214963587}
   m_Layer: 0
   m_Name: Rocks 1 (7)
   m_TagString: Untagged
@@ -4996,6 +5517,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3.6
+--- !u!50 &1214963587
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214963583}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1220938245
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,6 +5549,7 @@ GameObject:
   - component: {fileID: 1220938246}
   - component: {fileID: 1220938247}
   - component: {fileID: 1220938248}
+  - component: {fileID: 1220938249}
   m_Layer: 0
   m_Name: Tree 2 (9)
   m_TagString: Untagged
@@ -5095,6 +5638,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &1220938249
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220938245}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1245085909
 GameObject:
   m_ObjectHideFlags: 0
@@ -5334,6 +5898,7 @@ GameObject:
   - component: {fileID: 1301135239}
   - component: {fileID: 1301135240}
   - component: {fileID: 1301135241}
+  - component: {fileID: 1301135242}
   m_Layer: 0
   m_Name: Rocks 1 (3)
   m_TagString: Untagged
@@ -5422,6 +5987,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3.6
+--- !u!50 &1301135242
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301135238}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1314188203
 GameObject:
   m_ObjectHideFlags: 0
@@ -5597,6 +6183,7 @@ GameObject:
   - component: {fileID: 1368225052}
   - component: {fileID: 1368225053}
   - component: {fileID: 1368225054}
+  - component: {fileID: 1368225055}
   m_Layer: 0
   m_Name: Rocks 1 (5)
   m_TagString: Untagged
@@ -5685,6 +6272,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3.6
+--- !u!50 &1368225055
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368225051}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1384231704
 GameObject:
   m_ObjectHideFlags: 0
@@ -5986,6 +6594,7 @@ GameObject:
   - component: {fileID: 1500160279}
   - component: {fileID: 1500160280}
   - component: {fileID: 1500160281}
+  - component: {fileID: 1500160282}
   m_Layer: 0
   m_Name: Tree 2 (4)
   m_TagString: Untagged
@@ -6074,6 +6683,27 @@ CircleCollider2D:
   m_Offset: {x: -0.000000059604645, y: 0.00000047683716}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &1500160282
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500160278}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1508139036
 GameObject:
   m_ObjectHideFlags: 0
@@ -6085,6 +6715,7 @@ GameObject:
   - component: {fileID: 1508139038}
   - component: {fileID: 1508139037}
   - component: {fileID: 1508139039}
+  - component: {fileID: 1508139040}
   m_Layer: 0
   m_Name: Tree 1
   m_TagString: Untagged
@@ -6173,6 +6804,27 @@ CircleCollider2D:
   m_Offset: {x: 0.0000009536743, y: -0.00000023841858}
   serializedVersion: 2
   m_Radius: 2.3799999
+--- !u!50 &1508139040
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508139036}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1530406893
 GameObject:
   m_ObjectHideFlags: 0
@@ -6184,6 +6836,7 @@ GameObject:
   - component: {fileID: 1530406895}
   - component: {fileID: 1530406894}
   - component: {fileID: 1530406896}
+  - component: {fileID: 1530406897}
   m_Layer: 0
   m_Name: Tree 2
   m_TagString: Untagged
@@ -6272,6 +6925,27 @@ CircleCollider2D:
   m_Offset: {x: 0.0000009536743, y: -0.00000047683716}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &1530406897
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530406893}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1536305507
 GameObject:
   m_ObjectHideFlags: 0
@@ -6801,6 +7475,7 @@ GameObject:
   - component: {fileID: 1877279075}
   - component: {fileID: 1877279076}
   - component: {fileID: 1877279077}
+  - component: {fileID: 1877279078}
   m_Layer: 0
   m_Name: Rocks 1 (2)
   m_TagString: Untagged
@@ -6889,6 +7564,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3.6
+--- !u!50 &1877279078
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877279074}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1897737424
 GameObject:
   m_ObjectHideFlags: 0
@@ -6900,6 +7596,7 @@ GameObject:
   - component: {fileID: 1897737425}
   - component: {fileID: 1897737426}
   - component: {fileID: 1897737427}
+  - component: {fileID: 1897737428}
   m_Layer: 0
   m_Name: Tree 1 (6)
   m_TagString: Untagged
@@ -6988,6 +7685,27 @@ CircleCollider2D:
   m_Offset: {x: 0.0000019073486, y: 0}
   serializedVersion: 2
   m_Radius: 2.3799999
+--- !u!50 &1897737428
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897737424}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1911805158
 GameObject:
   m_ObjectHideFlags: 0
@@ -7409,6 +8127,7 @@ GameObject:
   - component: {fileID: 1989239468}
   - component: {fileID: 1989239469}
   - component: {fileID: 1989239470}
+  - component: {fileID: 1989239471}
   m_Layer: 0
   m_Name: Tree 1 (4)
   m_TagString: Untagged
@@ -7497,6 +8216,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.0000019073486}
   serializedVersion: 2
   m_Radius: 2.3799999
+--- !u!50 &1989239471
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989239467}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2004801033
 GameObject:
   m_ObjectHideFlags: 0
@@ -7508,6 +8248,7 @@ GameObject:
   - component: {fileID: 2004801034}
   - component: {fileID: 2004801035}
   - component: {fileID: 2004801036}
+  - component: {fileID: 2004801037}
   m_Layer: 0
   m_Name: Tree 1 (9)
   m_TagString: Untagged
@@ -7596,6 +8337,27 @@ CircleCollider2D:
   m_Offset: {x: 0.0000019073486, y: 0}
   serializedVersion: 2
   m_Radius: 2.3799999
+--- !u!50 &2004801037
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004801033}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2076618310
 GameObject:
   m_ObjectHideFlags: 0
@@ -7798,6 +8560,7 @@ GameObject:
   - component: {fileID: 2088191945}
   - component: {fileID: 2088191946}
   - component: {fileID: 2088191947}
+  - component: {fileID: 2088191948}
   m_Layer: 0
   m_Name: Tree 2 (14)
   m_TagString: Untagged
@@ -7886,6 +8649,27 @@ CircleCollider2D:
   m_Offset: {x: 0.0000038146973, y: 0.0000009536743}
   serializedVersion: 2
   m_Radius: 2.6
+--- !u!50 &2088191948
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088191944}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2091483754
 GameObject:
   m_ObjectHideFlags: 0
