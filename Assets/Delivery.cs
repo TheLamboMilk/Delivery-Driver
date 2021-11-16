@@ -12,7 +12,11 @@ public class Delivery : MonoBehaviour
    {
      if (other.tag == "Package")
      {
-       Debug.Log("Filmul cu cars 3 a fost livrat");
+       Debug.Log("Filmul cu cars 3 a fost ridicat");
+     }
+     if (other.tag == "Mono")
+     {
+       Debug.Log("Filmul cu cars 3 a fost livrat domnului Mono");
      }
    }
 }
