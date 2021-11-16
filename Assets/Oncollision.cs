@@ -8,4 +8,9 @@ public class Oncollision : MonoBehaviour
      {
        Debug.Log("Mono:NUUUUUUUUUUUU, masinuta s-a spart");
      }
+     
+     void OnTriggerEnter2D(Collider2D other) 
+     {
+       Debug.Log("Mono:A inceput Cars 3");
+     }
 }
