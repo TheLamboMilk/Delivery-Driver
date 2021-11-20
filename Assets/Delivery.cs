@@ -13,7 +13,7 @@ public class Delivery : MonoBehaviour
    }
     void OnTriggerEnter2D(Collider2D other) 
    {
-     if (other.tag == "Package")
+     if (other.tag == "Package" && !hasPackage)
      {
        Debug.Log("Filmul cu cars 3 a fost ridicat");
        hasPackage = true;
