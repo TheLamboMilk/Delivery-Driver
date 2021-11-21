@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Package
   - Mono
+  - Boost
   layers:
   - Default
   - TransparentFX

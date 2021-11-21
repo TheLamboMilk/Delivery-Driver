@@ -1611,7 +1611,7 @@ GameObject:
   - component: {fileID: 305132529}
   m_Layer: 0
   m_Name: Speedup
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2605,7 +2605,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.17, y: -11.45, z: -10}
+  m_LocalPosition: {x: -6.69, y: -11.45, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2646,6 +2646,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steerSpeed: 300
   moveSpeed: 20
+  slowSpeed: 15
+  boostSpeed: 30
+  delay: 0.1
 --- !u!212 &519713654
 SpriteRenderer:
   m_ObjectHideFlags: 0
